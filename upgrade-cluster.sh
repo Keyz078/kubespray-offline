@@ -1,4 +1,7 @@
 #!/bin/bash
+
+##cp this script into kubespray directory
+
 if [ $1 == "" ] || [ $2 == "" ];
 then
     echo "Usage: ./upgrade-c;uster.sh <inventory> <version>";
