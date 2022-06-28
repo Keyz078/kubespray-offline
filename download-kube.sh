@@ -9,3 +9,5 @@ version=$1
 echo "Configuring version......";
 ./change-kube-ver.sh ${version} || exit 1
 ./download-kubespray-files.sh || exit 1
+cd outputs/ && ./load-push-all-images.sh || exit 1
+cd ..
