@@ -11,3 +11,4 @@ echo "Configuring version......";
 ./download-kubespray-files.sh || exit 1
 cd outputs/ && ./load-push-all-images.sh || exit 1
 cd ..
+echo "kubernetes ${version} has been added to the repository"
