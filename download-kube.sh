@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [[ $1 == "" ]]
 then
     echo "Usage: ./change-kube-ver.sh <version>";
