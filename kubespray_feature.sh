@@ -1,5 +1,5 @@
 #!/bin/bash
-kubespray_dir="$HOME/kubesrpay"
+kubespray_dir="$HOME/kubespray"
 inventory_dir="${kubespray_dir}/inventory/sample"  # replace with your inventory location
 dir="${inventory_dir}/group_vars/k8s_cluster"
 #echo $kubespray_dir
